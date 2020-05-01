@@ -1,0 +1,486 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-native > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > inquirer > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-babel-register > @babel/register > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > async > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-babel-register > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > babel-preset-fbjs > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-react-native-babel-preset > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > async > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-babel-register > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-react-native-babel-preset > @babel/plugin-transform-unicode-regex > @babel/helper-regex > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > babel-preset-fbjs > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > async > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-template > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-babel-register > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-unicode-regex > @babel/helper-regex > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-react-native-babel-preset > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-react-native-babel-preset > metro-babel7-plugin-react-transform > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-resolve-dependencies > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > babel-preset-fbjs > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-babel-register > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-unicode-regex > @babel/helper-regex > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > metro-react-native-babel-preset > metro-babel7-plugin-react-transform > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-api > istanbul-reports > handlebars > async > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-babel-register > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > metro-react-native-babel-preset > metro-babel7-plugin-react-transform > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-babel-register > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest-junit > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > metro > metro-config > metro > metro-react-native-babel-preset > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
+    - react-native > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T00:07:51.564Z'
